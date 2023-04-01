@@ -25,6 +25,7 @@ const BookingForm = ({ movie }) => {
       <div>
         <label htmlFor='name'>Name:</label>
         <input
+          className='inp'
           type='text'
           id='name'
           name='name'
@@ -36,6 +37,7 @@ const BookingForm = ({ movie }) => {
       <div>
         <label htmlFor='show'>Show:</label>
         <input
+          className='inp'
           type='text'
           id='show'
           name='show'
@@ -46,6 +48,7 @@ const BookingForm = ({ movie }) => {
       <div>
       <label htmlFor='date'>date: </label>
     <input 
+           className='inp' 
            type='date'
            name='date' 
            min={today} 
@@ -57,6 +60,7 @@ const BookingForm = ({ movie }) => {
       <div>
         <label htmlFor='email'>Email:</label>
         <input
+        className='inp'
         placeholder='Email'
           type='email'
           id='email'
@@ -68,6 +72,7 @@ const BookingForm = ({ movie }) => {
       <div>
         <label htmlFor='phone'>Phone:</label>
         <input
+        className='inp'
          placeholder='Phone Number'
           type='tel'
           id='phone'
@@ -79,6 +84,7 @@ const BookingForm = ({ movie }) => {
       <div>
         <label htmlFor='numberOfTickets'>Number of Tickets:</label>
         <input
+        className='inp'
           min ='1'
           max='20'
           type='number'
